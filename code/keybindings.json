@@ -1,0 +1,27 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "command": "vscode-neovim.compositeEscape1",
+        "key": "j",
+        "when": "neovim.mode == insert && editorTextFocus",
+        "args": "j"
+    },
+    {
+        "command": "vscode-neovim.compositeEscape2",
+        "key": "k",
+        "when": "neovim.mode == insert && editorTextFocus",
+        "args": "k"
+    },
+    {
+        "command": "-vscode-neovim.send",
+        "key": "ctrl+a"
+    },
+    {
+        "command": "-vscode-neovim.send",
+        "key": "ctrl+f"
+    },
+    {
+        "command": "-vscode-neovim.send",
+        "key": "ctrl+h"
+    }
+]
