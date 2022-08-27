@@ -12,20 +12,21 @@ set autoindent              " indent a new line the same amount as the line just
 set number                  " add line numbers
 set relativenumber          " reltive line numbers
 set wildmode=longest,list   " get bash-like tab completions
-filetype plugin indent on   "allow auto-indenting depending on file type
+filetype plugin indent on   " allow auto-indenting depending on file type
 syntax on                   " syntax highlighting
 set mouse=a                 " enable mouse click
 set clipboard=unnamedplus   " using system clipboard
 filetype plugin on
-set cursorline              " highlight current cursorline
 set ttyfast                 " Speed up scrolling in Vim
 
 call plug#begin('~/.vim/plugged')
  " Plugin Section
- Plug 'luisiacc/gruvbox-baby', {'branch': 'main'}
+ Plug 'gruvbox-community/gruvbox'
+ Plug 'vim-airline/vim-airline'
+ Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
-colorscheme gruvbox-baby
+colorscheme gruvbox
 
 :inoremap jk <Esc>
 :vnoremap jk <Esc>
