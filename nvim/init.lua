@@ -6,10 +6,7 @@ local cmd = vim.cmd
 local api = vim.api
 
 function set(option, value) 
-	if value == nil then
-		value = true
-	end
-
+    valur = value or true
 	o[option] = value
 end
 
@@ -25,6 +22,7 @@ end
 -- Settings
 g.mapleader = ' '
 g.maplocalleader = ' '
+set('termguicolors')
 set('showmatch')
 set('ignorecase')
 set('hlsearch')
@@ -60,4 +58,3 @@ if not g.vscode then
 
     cmd('colorscheme gruvbox-baby')
 end
-
