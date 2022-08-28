@@ -6,7 +6,7 @@ local cmd = vim.cmd
 local api = vim.api
 
 function set(option, value) 
-    valur = value or true
+    value = value or true
 	o[option] = value
 end
 
