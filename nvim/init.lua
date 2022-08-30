@@ -45,7 +45,6 @@ cmd('filetype plugin on')
 
 -- Key-Bindings
 map('i', 'jk', '<Esc>')
-map('v', 'jk', '<Esc>')
 map('n', '<leader><space>', '<cmd>noh<CR>')
 
 -- Plugins
