@@ -26,7 +26,7 @@ set('ttyfast')
 map('i', 'jk', '<Esc>')
 map('n', '<leader><space>', '<cmd>noh<CR>')
 map('n', '<leader>ww', '<cmd>bnext<CR>')
-map('n', '<leader>wq', '<cmd>bdelete<CR')
+map('n', '<leader>wq', '<cmd>bdelete<CR>')
 
 -- Plugins
 if not g.vscode then
@@ -41,3 +41,4 @@ if not g.vscode then
 
     cmd('colorscheme gruvbox-baby')
 end
+
