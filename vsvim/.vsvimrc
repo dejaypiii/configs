@@ -14,3 +14,4 @@ set clipboard=unnamedplus
 
 inoremap jk <Esc>
 noremap <leader><space> :noh<CR>
+noremap <leader>gn :vsc View.NextError<CR>
