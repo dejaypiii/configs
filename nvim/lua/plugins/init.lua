@@ -15,7 +15,8 @@ return require('packer').startup(function(use)
     use 'hrsh7th/cmp-cmdline'
     use 'hrsh7th/nvim-cmp'
     use 'L3MON4D3/LuaSnip'
-    use { 'luisiacc/gruvbox-baby', branch = 'main' }
+--    use { 'luisiacc/gruvbox-baby', branch = 'main' }
+    use { "catppuccin/nvim", as = "catppuccin" }
     use {
         'nvim-lualine/lualine.nvim',
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }

@@ -32,13 +32,16 @@ map('n', '<leader>wq', '<cmd>bdelete<CR>')
 if not g.vscode then
     require('plugins')
 
-    require('lualine').setup { options = { theme = "gruvbox-baby" } }
+--    require('lualine').setup { options = { theme = "gruvbox-baby" } }
+    g.catppuccin_flavour = 'frappe'
+    require('catppuccin').setup()
     require('plugins.tree-sitter-config')
     require('plugins.lsp-config')
     require('plugins.cmp-config')
     require('plugins.telescope-config')
     require('plugins.nvim-tree-config')
 
-    cmd('colorscheme gruvbox-baby')
+--    cmd('colorscheme gruvbox-baby')
+    cmd('colorscheme catppuccin')
 end
 
