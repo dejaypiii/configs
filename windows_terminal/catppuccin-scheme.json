@@ -1,0 +1,23 @@
+{
+    "background": "#0C0C0C",
+    "black": "#232634",
+    "blue": "#8caaee",
+    "brightBlack": "#292c3c",
+    "brightBlue": "#85c1dc",
+    "brightCyan": "#99d1db",
+    "brightGreen": "#81c8be",
+    "brightPurple": "#eebebe",
+    "brightRed": "#ea999c",
+    "brightWhite": "#Subtext0",
+    "brightYellow": "#e5c890",
+    "cursorColor": "#f2d5cf",
+    "cyan": "#81c8be",
+    "foreground": "#c6d0f5",
+    "green": "#a6d189",
+    "name": "Catppuccin",
+    "purple": "#f4b8e4",
+    "red": "#e78284",
+    "selectionBackground": "#626880",
+    "white": "#c6d0f5",
+    "yellow": "#e5c890"
+}
