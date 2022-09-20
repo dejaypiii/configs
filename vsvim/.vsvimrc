@@ -10,7 +10,7 @@ set shiftwidth=4
 set autoindent
 set number
 set relativenumber
-set clipboard=unnamedplus
+set clipboard=unnamed
 
 inoremap jk <Esc>
 noremap <leader><space> :noh<CR>
