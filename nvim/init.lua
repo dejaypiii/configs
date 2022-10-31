@@ -33,8 +33,7 @@ if not g.vscode then
     require('plugins')
 
 --    require('lualine').setup { options = { theme = "gruvbox-baby" } }
-    g.catppuccin_flavour = 'frappe'
-    require('catppuccin').setup()
+    require('plugins.catppuccin')
     require('plugins.tree-sitter-config')
     require('plugins.lsp-config')
     require('plugins.cmp-config')
