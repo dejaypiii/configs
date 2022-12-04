@@ -1,16 +1,2 @@
-let mapleader = ' '
-let maplocalleader = ' '
-set ignorecase
-set hlsearch
-set incsearch
-set tabstop=4
-set softtabstop=4
-set expandtab
-set shiftwidth=4
-set autoindent
-set number
 set clipboard=unnamed
-
-inoremap jk <Esc>
-noremap <leader><space> :noh<CR>
-noremap <leader>gn :vsc View.NextError<CR>
+inoremap jk <esc>
