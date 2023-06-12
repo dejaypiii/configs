@@ -12,5 +12,6 @@ map <leader>cf <Action>(SilentCodeCleanup)
 map <leader>rr <Action>(Refactorings.QuickListPopupAction)
 
 map <leader>bs <Action>(BuildWholeSolutionAction)
+map <leader>tb <Action>(ToggleLineBreakpoint)
 map <leader>rd <Action>(mainRunToolbarDebugProcess)
-map <leader>rt <Axtion>(RiderUnitTestRunTreeSplitAction)
+map <leader>rt <Action>(RiderUnitTestRunSolutionAction)
