@@ -8,7 +8,7 @@ map <leader>gn <Action>(ReSharperGotoNextErrorInSolution)
 map <leader>gp <Action>(ReSharperGotoPrevErrorInSolution)
 
 map <leader>ca <Action>(ShowIntentionActions)
-map <leader>cf <Action>(SilentCodeCleanup)
+map <leader>af <Action>(SilentCodeCleanup)
 map <leader>rr <Action>(Refactorings.QuickListPopupAction)
 
 map <leader>bs <Action>(BuildWholeSolutionAction)
