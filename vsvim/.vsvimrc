@@ -6,8 +6,8 @@ let mapleader = " "
 inoremap jk <ESC>
 nnoremap <LEADER><SPACE> :noh<ENTER>
 
-nnoremap <LEADER>gn :vsc Resharper.GotoNextErrorInSolution<ENTER>
-nnoremap <LEADER>gp :vsc Resharper.GotoPrevErrorInSolution<ENTER>
+nnoremap <LEADER>gn :vsc View.NextError<ENTER>
+nnoremap <LEADER>gp :vsc View.PreviousError<ENTER>
 
 nnoremap <LEADER>ca :vsc Resharper_AltEnter<ENTER>
 nnoremap <LEADER>af :vsc Resharper.Resharper_SilentCleanupCode<ENTER>
