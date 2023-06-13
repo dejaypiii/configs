@@ -1,2 +1,19 @@
 set clipboard=unnamed
-inoremap jk <esc>
+set ignorecase
+set hlsearch
+let mapleader = " "
+
+inoremap jk <ESC>
+nnoremap <LEADER><SPACE> :noh<ENTER>
+
+nnoremap <LEADER>gn :vsc Resharper.GotoNextErrorInSolution<ENTER>
+nnoremap <LEADER>gp :vsc Resharper.GotoPrevErrorInSolution<ENTER>
+
+nnoremap <LEADER>ca :vsc Resharper_AltEnter<ENTER>
+nnoremap <LEADER>af :vsc Resharper.Resharper_SilentCleanupCode<ENTER>
+nnoremap <LEADER>rr :vsc Resharper.Resharper_RefactorThis<ENTER>
+
+nnoremap <LEADER>bs :vsc Build.BuildSolution<ENTER>
+nnoremap <LEADER>tb :vsc Debug.ToggleBreakpoint<ENTER>
+nnoremap <LEADER>rd :vsc Debug.Start<ENTER>
+nnoremap <LEADER>rt :vsc Resharper.Resharper_UnitTestRunSolution<ENTER>
