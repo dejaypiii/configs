@@ -1,7 +1,10 @@
 set clipboard=unnamed
-let mapleader=" "
+set ignorecase
+set hlsearch
+let mapleader = " "
 
 inoremap jk <ESC>
+nnoremap <LEADER><SPACE> :noh<ENTER>
 
 map <leader>gh <Action>(ShowErrorDescription)
 map <leader>gn <Action>(ReSharperGotoNextErrorInSolution)
