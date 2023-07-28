@@ -6,6 +6,10 @@ let mapleader = " "
 inoremap jk <ESC>
 nnoremap <LEADER><SPACE> :noh<ENTER>
 
+nnoremap <LEADER>w :vsc Edit.NextSubWord<ENTER>
+nnoremap <LEADER>b :vsc Edit.PreviousSubWord<ENTER>
+nnoremap <LEADER>vw :vsc Edit.SelectCurrentSubWord<ENTER>
+
 nnoremap <LEADER>gn :vsc View.NextError<ENTER>
 nnoremap <LEADER>gp :vsc View.PreviousError<ENTER>
 
@@ -13,7 +17,7 @@ nnoremap <LEADER>ca :vsc Resharper_AltEnter<ENTER>
 nnoremap <LEADER>af :vsc Resharper.Resharper_SilentCleanupCode<ENTER>
 nnoremap <LEADER>rr :vsc Resharper.Resharper_RefactorThis<ENTER>
 
-nnoremap <LEADER>bs :vsc Build.BuildSolution<ENTER>
 nnoremap <LEADER>tb :vsc Debug.ToggleBreakpoint<ENTER>
+nnoremap <LEADER>rb :vsc Build.BuildSolution<ENTER>
 nnoremap <LEADER>rd :vsc Debug.Start<ENTER>
 nnoremap <LEADER>rt :vsc Resharper.Resharper_UnitTestRunSolution<ENTER>
