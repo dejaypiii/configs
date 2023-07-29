@@ -14,7 +14,7 @@ map <leader>ca <Action>(ShowIntentionActions)
 map <leader>af <Action>(SilentCodeCleanup)
 map <leader>rr <Action>(Refactorings.QuickListPopupAction)
 
-map <leader>bs <Action>(BuildWholeSolutionAction)
 map <leader>tb <Action>(ToggleLineBreakpoint)
+map <leader>rb <Action>(BuildWholeSolutionAction)
 map <leader>rd <Action>(mainRunToolbarDebugProcess)
 map <leader>rt <Action>(RiderUnitTestRunSolutionAction)
