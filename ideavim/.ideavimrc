@@ -6,6 +6,9 @@ let mapleader = " "
 inoremap jk <ESC>
 nnoremap <LEADER><SPACE> :noh<ENTER>
 
+map <leader>w [w
+map <leader>b [b
+
 map <leader>gh <Action>(ShowErrorDescription)
 map <leader>gn <Action>(ReSharperGotoNextErrorInSolution)
 map <leader>gp <Action>(ReSharperGotoPrevErrorInSolution)
