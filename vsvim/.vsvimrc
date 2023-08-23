@@ -4,6 +4,8 @@ set hlsearch
 let mapleader = " "
 
 inoremap jk <ESC>
+nnoremap K :vsc Edit.QuickInfo<ENTER>
+nnoremap <LEADER>k :vsc Edit.ParameterInfo<ENTER>
 nnoremap <LEADER><SPACE> :noh<ENTER>
 
 nnoremap <LEADER>w :vsc Edit.NextSubWord<ENTER>
