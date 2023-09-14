@@ -5,6 +5,7 @@ let mapleader = " "
 
 inoremap jk <ESC>
 nnoremap K :vsc Edit.QuickInfo<ENTER>
+nnoremap <LEADER>L :vsc Resharper.ReSharper_LocateInSolutionOrAssemblyExplorer<ENTER>
 nnoremap <LEADER>k :vsc Edit.ParameterInfo<ENTER>
 nnoremap <LEADER><SPACE> :noh<ENTER>
 
