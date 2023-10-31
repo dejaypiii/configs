@@ -9,6 +9,10 @@ nnoremap <LEADER>L :vsc Resharper.ReSharper_LocateInSolutionOrAssemblyExplorer<E
 nnoremap <LEADER>k :vsc Edit.ParameterInfo<ENTER>
 nnoremap <LEADER><SPACE> :noh<ENTER>
 
+nnoremap <LEADER>w :vsc File.SaveSelectedItems<ENTER>
+nnoremap <LEADER>q :vsc Window.CloseDocumentWindow<ENTER>
+nnoremap <C-O> :vsc View.NavigateBackward<CR>
+nnoremap <C-I> :vsc View.NavigateForward<CR>
 nnoremap <LEADER>v :vsplit<ENTER>
 nnoremap <LEADER>s :split<ENTER>
 nnoremap <LEADER>h <C-w>h
@@ -18,7 +22,6 @@ nnoremap <LEADER>k <C-w>k
 nnoremap H gT
 nnoremap L gt
 
-nnoremap <LEADER>w :vsc Edit.NextSubWord<ENTER>
 nnoremap <LEADER>b :vsc Edit.PreviousSubWord<ENTER>
 nnoremap <LEADER>vw :vsc Edit.SelectCurrentSubWord<ENTER>
 
