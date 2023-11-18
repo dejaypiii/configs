@@ -6,8 +6,8 @@ let mapleader = " "
 
 inoremap jk <ESC>
 nnoremap K :vsc Edit.QuickInfo<ENTER>
-nnoremap <LEADER>f :vsc ReSharper.ReSharper_GotoType<ENTER>
-nnoremap <LEADER>L :vsc Resharper.ReSharper_LocateInSolutionOrAssemblyExplorer<ENTER>
+nnoremap <LEADER>f :vsc Edit.NavigateTo<ENTER>
+nnoremap <LEADER>L :vsc SolutionExplorer.SyncWithActiveDocument<ENTER>
 nnoremap <LEADER>k :vsc Edit.ParameterInfo<ENTER>
 nnoremap <LEADER><SPACE> :noh<ENTER>
 
@@ -24,17 +24,14 @@ nnoremap <LEADER>k <C-w>k
 nnoremap H gT
 nnoremap L gt
 
-nnoremap <LEADER>b :vsc Edit.PreviousSubWord<ENTER>
-nnoremap <LEADER>vw :vsc Edit.SelectCurrentSubWord<ENTER>
-
 nnoremap <LEADER>gn :vsc View.NextError<ENTER>
 nnoremap <LEADER>gp :vsc View.PreviousError<ENTER>
 
-nnoremap <LEADER>ca :vsc Resharper_AltEnter<ENTER>
-nnoremap <LEADER>af :vsc Resharper.Resharper_SilentCleanupCode<ENTER>
-nnoremap <LEADER>rr :vsc Resharper.Resharper_RefactorThis<ENTER>
+nnoremap <LEADER>ca :vsc EditorContextMenus.CodeWindow.QuickActionsForPosition<ENTER>
+nnoremap <LEADER>af :vsc Edit.FormatDocument<ENTER>
+nnoremap <LEADER>ccu :vsc Analyze.RunDefaultCodeCleanup<ENTER>
 
 nnoremap <LEADER>tb :vsc Debug.ToggleBreakpoint<ENTER>
 nnoremap <LEADER>rb :vsc Build.BuildSolution<ENTER>
 nnoremap <LEADER>rd :vsc Debug.Start<ENTER>
-nnoremap <LEADER>rt :vsc Resharper.Resharper_UnitTestRunSolution<ENTER>
+nnoremap <LEADER>rt :vsc TestExplorer.RunAllTests<ENTER>
