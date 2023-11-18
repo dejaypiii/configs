@@ -1,8 +1,12 @@
-function Set-DjpGitPatch { git add --patch }
-Set-Alias -Name gap -Value Set-DjpGitPatch
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/gruvbox.omp.json" | Invoke-Expression
 
-# currently not using ohmyposh
-# oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\gruvbox.omp.json" | Invoke-Expression
-# oh-my-posh init pwsh --config "~/.catppuccin-frappe-fake.omp.json" | Invoke-Expression
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\agnoster.minimal.omp.json" | Invoke-Expression
+$env:Path += ';C:\Program Files\LLVM\bin'
+$env:Path += ';C:\msys64\ucrt64\bin'
+$env:Path += ';D:\dev\tools\bin'
+$env:Path += ';D:\dev\tools\zig'
+$env:Path += ';D:\dev\tools\vcpkg'
 
+$env:VCPKG_ROOT = "D:\dev\tools\vcpkg"
+
+function Goto-Dev { Set-Location "D:/dev" }
+Set-Alias dev Goto-Dev
